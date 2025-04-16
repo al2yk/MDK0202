@@ -12,5 +12,7 @@ namespace mathFunc
 
         public static double Cosinus(double a) => Math.Cos(a);
 
+        public static double Multiply(double a, double b) => a * b;
+
     }
 }
