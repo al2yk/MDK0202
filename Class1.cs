@@ -10,5 +10,7 @@ namespace mathFunc
 
         public static double Module(double a) => Math.Abs(a);
 
+        public static double Cosinus(double a) => Math.Cos(a);
+
     }
 }
