@@ -8,5 +8,7 @@ namespace mathFunc
 
         public static double Subtraction(double a, double b) => a - b;
 
+        public static double Module(double a) => Math.Abs(a);
+
     }
 }
