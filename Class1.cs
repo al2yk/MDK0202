@@ -20,6 +20,7 @@ namespace mathFunc
                 throw new DivideByZeroException("Попытка деления на ноль!");
             return a / b;
         }
+        public static double Sinus(double a) => Math.Sin(a);
 
     }
 }
