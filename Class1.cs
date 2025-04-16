@@ -35,5 +35,11 @@ s
             }
             return result;
         }
+        public static double Sqrt(double number)
+        {
+            if (number < 0)
+                throw new ArgumentException("Нельзя вычислить квадртаный корень из отрицательного числа!");
+            return Math.Sqrt(number);
+        }
     }
 }
